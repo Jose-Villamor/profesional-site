@@ -39,7 +39,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: emoji("Skills 🦾"),
-  subTitle: "A DATA SCIENTIST SKILLED IN BOTH DATA ENGINEERING AND SOFTWARE DEVELOPMENT",
+  subTitle: "A DATA SCIENTIST SKILLED IN BOTH DATA ENGINEERING AND WEB DEVELOPMENT",
   skills: [
     emoji(
       "🛠 Responsible for executing data analysis, machine learning, process automation, and software solutions projects."
@@ -151,7 +151,7 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "Software Developement",
+      Stack: "Web Developement",
       progressPercentage: "65%"
     },
   ],
