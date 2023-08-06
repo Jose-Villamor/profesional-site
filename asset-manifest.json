@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profesional-site/static/css/main.08a32d51.css",
-    "main.js": "/profesional-site/static/js/main.842a6c85.js",
+    "main.js": "/profesional-site/static/js/main.03047211.js",
     "static/media/profile.png": "/profesional-site/static/media/profile.39408ed197103ded5440.png",
     "static/media/Montserrat-Regular.ttf": "/profesional-site/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/profesional-site/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -10,10 +10,10 @@
     "static/media/skill.svg": "/profesional-site/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/profesional-site/index.html",
     "main.08a32d51.css.map": "/profesional-site/static/css/main.08a32d51.css.map",
-    "main.842a6c85.js.map": "/profesional-site/static/js/main.842a6c85.js.map"
+    "main.03047211.js.map": "/profesional-site/static/js/main.03047211.js.map"
   },
   "entrypoints": [
     "static/css/main.08a32d51.css",
-    "static/js/main.842a6c85.js"
+    "static/js/main.03047211.js"
   ]
 }
