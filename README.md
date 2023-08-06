@@ -1,2 +1,2 @@
-# profesional-site
-Profesional website to display my Curricum Vitae.
+# personal-site
+Personal website
