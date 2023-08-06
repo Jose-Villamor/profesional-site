@@ -19,7 +19,7 @@ const greeting = {
   username: "Jose Villamor",
   title: "Hello, I'm Jose",
   subTitle: emoji(
-    "An enthusiastic and innovative Data Scientist with a passion for AI modeling, data management, and software development, capable of meeting deadlines and achieving priority objectives while maintaining curiosity and drive."
+    "An enthusiastic and innovative Data Scientist with a passion for AI modeling, data management, and web development, capable of meeting deadlines and achieving priority objectives while maintaining curiosity and drive."
   ),
   resumeLink:
     "https://jose-villamor.github.io/Resume_pdf/CV.pdf", // Set to empty to hide the button
