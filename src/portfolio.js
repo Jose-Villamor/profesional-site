@@ -60,7 +60,6 @@ const skillsSection = {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
-    
     {
       skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
@@ -86,9 +85,33 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "docker",
+      skillName: "Weights n Biases",
+      fontAwesomeClassname: "fas fa-solid fa-braille"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-solid fa-cubes"
+    },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fab fa-brands fa-tumblr"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-brands fa-linux"
+    },
+    {
+      skillName: "Bash",
+      fontAwesomeClassname: "fas fa-dollar-sign"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-brands fa-jenkins"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -137,22 +160,30 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// Your top 5 competences
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Data Science", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Data Engineering",
       progressPercentage: "80%"
     },
     {
-      Stack: "Web Developement",
-      progressPercentage: "65%"
+      Stack: "DevOps",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Cloud",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Software Development",
+      progressPercentage: "50%"
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false

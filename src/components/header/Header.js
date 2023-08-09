@@ -42,7 +42,7 @@ function Header() {
           )}
           {viewtechStack && (
             <li>
-              <a href="#proficency">Proficiency</a>
+              <a href="#competence">Competence</a>
             </li>
           )}
           {viewEducationInfo && (

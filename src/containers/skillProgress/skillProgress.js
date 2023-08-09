@@ -9,17 +9,17 @@ import emoji from "react-easy-emoji";
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
-      <Fade bottom duration={1000} distance="5px">
-        <div className="skills-container" id="proficency">
+      <Fade bottom duration={1000} distance="0px">
+        <div className="skills-container" id="competence">
           <div className="skills-bar">
-            <h1 className="skills-heading"><span>{emoji('🧠 ')}</span>Proficency</h1>
+            <h1 className="skills-heading"><span>{emoji('🧠 ')}</span>Competence</h1>
             {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage
               };
               return (
                 <div key={i} className="skill">
-                  <p>{exp.Stack}</p>
+                  <p className="stack">{exp.Stack}</p>
                   <div className="meter">
                     <span style={progressStyle}></span>
                   </div>
