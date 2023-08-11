@@ -13,11 +13,14 @@
   margin-top: 30px;
 }
 
+.blog-header {
+  margin-top: 110px;
+}
+
 #blogs{
   margin-top: 10px;
   padding-top: 0px;
   width: 90%;
-  direction: rtl;
 }
 
 
@@ -28,14 +31,10 @@
 .blog-header-text {
   font-size: 56px;
   font-weight: 400;
-  text-align: center;
-  margin-left: 550px;
 }
 
 .blog-subtitle {
   text-transform: uppercase;
-  text-align: center;
-  margin-left: 475px;
 }
 
 .blog-main-div > * {
@@ -53,7 +52,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 32px;
-  direction: ltr;
 }
 .subTitle {
   color: $subTitle;

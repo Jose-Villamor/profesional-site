@@ -19,7 +19,7 @@ const greeting = {
   username: "Jose Villamor",
   title: "Hello, I'm Jose",
   subTitle: emoji(
-    "An enthusiastic and innovative Data Scientist with a passion for AI modeling, data management, and web development, capable of meeting deadlines and achieving priority objectives while maintaining curiosity and drive."
+    "An enthusiastic and innovative Data Scientist with a passion for AI modeling, data management, and MLOps. Capable of meeting deadlines and achieving priority objectives while maintaining curiosity and drive."
   ),
   resumeLink:
     "https://jose-villamor.github.io/Resume_pdf/CV.pdf", // Set to empty to hide the button
@@ -39,15 +39,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: emoji("Skills 🦾"),
-  subTitle: "A DATA SCIENTIST SKILLED IN BOTH DATA ENGINEERING AND WEB DEVELOPMENT",
+  subTitle: "A DATA SCIENTIST SKILLED IN BOTH DATA ENGINEERING AND MLOps",
   skills: [
     emoji(
-      "🛠 Responsible for executing data analysis, machine learning, process automation, and software solutions projects."
+      "🛠 Responsible for executing machine learning, data analysis and process automation solutions."
     ),
-    emoji("🛠 Competency in recognizing opportunities and develop prototypes to enhance operational efficiency and deliver added value to clients."),
+    emoji("🛠 Competency in identifying operational improvements and developing prototypes to assess viability."),
 
     emoji(
-      "🛠 Oversee data management practices, ensuring integrity, quality, and accessibility across the organization."
+      "🛠 Oversee data-centric and operational practices, ensuring integrity, delivery and quality."
     )
   ],
 
@@ -97,20 +97,12 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-solid fa-cubes"
     },
     {
-      skillName: "Terraform",
-      fontAwesomeClassname: "fab fa-brands fa-tumblr"
-    },
-    {
       skillName: "Linux",
       fontAwesomeClassname: "fab fa-brands fa-linux"
     },
     {
       skillName: "Bash",
       fontAwesomeClassname: "fas fa-dollar-sign"
-    },
-    {
-      skillName: "Jenkins",
-      fontAwesomeClassname: "fab fa-brands fa-jenkins"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -174,41 +166,86 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "DevOps",
+      Stack: "MLOps",
       progressPercentage: "70%"
     },
     {
       Stack: "Cloud",
       progressPercentage: "60%"
     },
-    {
-      Stack: "Software Development",
-      progressPercentage: "50%"
-    },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
   display: true
 };
 
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: emoji("🎓 Certifications"),
+  subtitle: "DIPLOMAS OBTAINED FROM OFFICIAL SITES",
+  projects: [
+    {
+      image: require("./assets/images/dvc-cert.webp"),
+      projectName: "AWS Developer Associate",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Access Diploma",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/dvc-cert.webp"),
+      projectName: "WnB CI/CD for MLOps",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Access Diploma",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dvc-cert.webp"),
+      projectName: "DVC Iterative Tools",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Access Diploma",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 // Online certifications Section
 
 const blogSection = {
-  title: emoji("📚 Certifications"),
+  title: emoji("📚 Courses"),
   subtitle:
-    "Obtained in educational programs and courses via e-learning platforms",
+    "Educational programs from e-learning platforms",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://www.udemy.com/certificate/UC-755cc42d-46f5-4104-b7aa-6300fbf829ec/",
-      title: "2023 Web Development Bootcamp",
-      description:
-        "Full-Stack Web Developer course using the latest technologies: HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps."
-    },
     {
       url: "https://www.udemy.com/certificate/UC-7d505b1b-ae65-461e-a71d-c4eced13f66d/",
       title: "Practical MLOps for Data Scientists & DevOps Engineers",
       description:
         "Improves the ability to design, build, deploy and maintain ML solutions for business problems with practices of DevOps."
+    },
+    {
+      url: "",
+      title: "DevOps Beginners to Advanced with Projects - 2023",
+      description:
+        "DevOps complete course that includes Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s and much more."
+    },   
+    {
+      url: "https://www.udemy.com/certificate/UC-755cc42d-46f5-4104-b7aa-6300fbf829ec/",
+      title: "2023 Web Development Bootcamp",
+      description:
+        "Full-Stack Web Developer course using the latest technologies: HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps."
     },
     {
       url: "https://www.coursera.org/account/accomplishments/specialization/certificate/7QQPT2VA3RTE",
@@ -221,12 +258,6 @@ const blogSection = {
       title: " Machine Learning (Standford University)",
       description:
         "Provides a mathematical undestanding of  Machine Learning centered on linear algebra, calculus and probability."
-    },
-    {
-      url: "https://www.coursera.org/account/accomplishments/specialization/certificate/KR4TUAF3PKH2",
-      title: "IBM Data Science Professional Certificate",
-      description:
-        "Develop skills, tools, and knowledge to have a competitive edge in the job market as a data scientist."
     },
     {
       url: "https://github.com/Jose-Villamor/Courses-Certifications",
@@ -249,6 +280,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
+  bigProjects,
   blogSection,
   isHireable
 };

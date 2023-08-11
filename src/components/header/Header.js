@@ -8,6 +8,7 @@ import {
   skillsSection,
   techStack,
   educationInfo,
+  bigProjects,
   blogSection,
 } from "../../portfolio";
 
@@ -16,7 +17,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewEducationInfo = educationInfo.display;
   const viewtechStack = techStack.display;
-
+  const viwebigProjects = bigProjects.display;
   const viewBlog = blogSection.display;
   return (
     <Headroom>
@@ -50,9 +51,14 @@ function Header() {
               <a href="#workExperience">Work Experience</a>
             </li>
           )}
+          {viwebigProjects && (
+            <li>
+              <a href="#projects">Certifications</a>
+            </li>
+          )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Certifications</a>
+              <a href="#blogs">Courses</a>
             </li>
           )}
           <li>
