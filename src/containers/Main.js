@@ -6,7 +6,7 @@ import StackProgress from "./skillProgress/skillProgress";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
-import StartupProject from "./StartupProjects/StartupProject";
+// import StartupProject from "./StartupProjects/StartupProject";
 import ScrollToTopButton from "./topbutton/Top";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
@@ -48,7 +48,6 @@ const Main = () => {
             <Skills />
             <StackProgress />
             <Education />
-	    <StartupProject/>
             <Blogs />
             <Footer />
             <ScrollToTopButton />

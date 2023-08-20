@@ -6,7 +6,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, 
   animation: splashAnimation,
-  duration: 2000 
+  duration: 2000
 };
 
 // Summary And Greeting Section
@@ -78,15 +78,11 @@ const skillsSection = {
     },
     {
       skillName: "Azure",
-      fontAwesomeClassname: "fab fa-microsoft"
+      fontAwesomeClassname: "fab fa-brands fa-windows"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Weights n Biases",
-      fontAwesomeClassname: "fas fa-solid fa-braille"
     },
     {
       skillName: "Docker",
@@ -97,12 +93,20 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-solid fa-cubes"
     },
     {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-brands fa-linux"
+      skillName: "Git Actions",
+      fontAwesomeClassname: "fas fa-solid fa-code-branch"
     },
     {
-      skillName: "Bash",
-      fontAwesomeClassname: "fas fa-dollar-sign"
+      skillName: "PySpark",
+      fontAwesomeClassname: "fas fa-regular fa-star"
+    },
+    {
+      skillName: "MLflow",
+      fontAwesomeClassname: "fas fa-solid fa-recycle"
+    },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fab fa-brands fa-tumblr"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -182,9 +186,9 @@ const techStack = {
 
 const bigProjects = {
   title: emoji("🎓 Certifications"),
-  subtitle: "DIPLOMAS OBTAINED FROM OFFICIAL SITES",
+  subtitle: "DIPLOMAS OBTAINED ON OFFICIAL SITES",
   projects: [
-    {
+     {
       image: require("./assets/images/dvc-cert.webp"),
       projectName: "AWS Developer Associate",
       projectDesc: "",
@@ -198,7 +202,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/dvc-cert.webp"),
-      projectName: "WnB CI/CD for MLOps",
+      projectName: "MLOps using Git Actions",
       projectDesc: "",
       footerLink: [
         {
@@ -209,7 +213,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/dvc-cert.webp"),
-      projectName: "DVC Iterative Tools",
+      projectName: "Iterative Tools Certification",
       projectDesc: "",
       footerLink: [
         {
@@ -231,12 +235,12 @@ const blogSection = {
   blogs: [
     {
       url: "https://www.udemy.com/certificate/UC-7d505b1b-ae65-461e-a71d-c4eced13f66d/",
-      title: "Practical MLOps for Data Scientists & DevOps Engineers",
+      title: "Practical MLOps for Data Scientists and DevOps",
       description:
-        "Improves the ability to design, build, deploy and maintain ML solutions for business problems with practices of DevOps."
+        "Improves the ability to build, deploy and maintain ML solutions with DevOps practices using AWS."
     },
     {
-      url: "",
+      url: "https://www.udemy.com/certificate/UC-f5263c96-286e-4877-8ef6-d128447bca61/",
       title: "DevOps Beginners to Advanced with Projects - 2023",
       description:
         "DevOps complete course that includes Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s and much more."
@@ -251,7 +255,7 @@ const blogSection = {
       url: "https://www.coursera.org/account/accomplishments/specialization/certificate/7QQPT2VA3RTE",
       title: "Deep Learning Specialization",
       description:
-        "Program that helps to understand the capabilities, challenges, and consequences of deep learning and prepare you to participate in the development of leading-edge AI tech."
+        "Understand the capabilities, challenges, and consequences of deep learning and participate in the development of leading-edge AI tech."
     },
     {
       url: "https://www.coursera.org/account/accomplishments/certificate/4YMYU2Y8BQHV",
@@ -263,7 +267,7 @@ const blogSection = {
       url: "https://github.com/Jose-Villamor/Courses-Certifications",
       title: "Other Certifications",
       description:
-        "See all certifications I have acquire regarding Machine Learning, Data Management and Software Engineering."
+        "See all certifications I have acquire regarding Machine Learning, Data Management and Software Engineering practices."
     }
   ],
   display: true // Set false to hide this section, defaults to true

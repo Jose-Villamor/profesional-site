@@ -32,7 +32,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {skillsSection.title}{""}
             </h1>
             <p
               className={
