@@ -89,10 +89,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "Kubernetes",
-      fontAwesomeClassname: "fas fa-solid fa-cubes"
-    },
-    {
       skillName: "Git Actions",
       fontAwesomeClassname: "fas fa-solid fa-code-branch"
     },
@@ -103,10 +99,6 @@ const skillsSection = {
     {
       skillName: "MLflow",
       fontAwesomeClassname: "fas fa-solid fa-recycle"
-    },
-    {
-      skillName: "Terraform",
-      fontAwesomeClassname: "fab fa-brands fa-tumblr"
     }
   ],
   display: true // Set false to hide this section, defaults to true
