@@ -19,7 +19,7 @@ const greeting = {
   username: "Jose Villamor",
   title: "Hello, I'm Jose",
   subTitle: emoji(
-    "An enthusiastic and innovative Data Scientist with a passion for AI modeling, data management, and MLOps. Capable of meeting deadlines and achieving priority objectives while maintaining curiosity and drive."
+    "An enthusiastic Data Scientist / Engineer with a passion for AI, Data and Tech. With experience executing Data Science, Data Management and Development solutions. Consistently demonstrating the ability to  attain critical objectives while maintaining curiosity and drive."
   ),
   resumeLink:
     "https://jose-villamor.github.io/Resume_pdf/CV.pdf", // Set to empty to hide the button
@@ -42,7 +42,7 @@ const skillsSection = {
   subTitle: "A DATA SCIENTIST SKILLED IN BOTH DATA ENGINEERING AND MLOps",
   skills: [
     emoji(
-      "🛠 Responsible for executing machine learning, data analysis and process automation solutions."
+      "🛠 Responsible for executing data science, data management and process automation solutions."
     ),
     emoji("🛠 Competency in identifying operational improvements and developing prototypes to assess viability."),
 
@@ -61,20 +61,8 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "HTML",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS 3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git"
+      skillName: "Git Hub",
+      fontAwesomeClassname: "fab fa-brands fa-github"
     },
     {
       skillName: "Azure",
@@ -85,21 +73,17 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "MLflow",
+      fontAwesomeClassname: "fas fa-solid fa-recycle"
     },
     {
-      skillName: "Git Actions",
-      fontAwesomeClassname: "fas fa-solid fa-code-branch"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "PySpark",
       fontAwesomeClassname: "fas fa-regular fa-star"
     },
-    {
-      skillName: "MLflow",
-      fontAwesomeClassname: "fas fa-solid fa-recycle"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -112,37 +96,55 @@ const educationInfo = {
     {
       schoolName: "World Trade Organization",
       logo: require("./assets/images/omgLogo.png"),
-      subHeader: "Programmer",
-      duration: "October 2021 - June 2023",
-      desc: "Python · SQL · Git · HTML/CSS/JavaScript · Microsoft Azure",
-      descBullets: [
-        "Processing of data received by members and its integration into database systems.",
-        "Conduct digitalization, automation, and data science projects.",
-        "Development of prototypes and web tools.",
+      subHeader: "Data Scientist/Engineer",
+      duration: "October 2021 - Present",
+      desc: "Python · SQL · Git Hub · Azure · MLflow · Docker · PySpark",
+      responsabilities: [
+        "Conduct end-to-end Machine Learning and NLP projects.",
+        "Perform Big Data processing, analysis, and Machine Learning modeling.",
+        "Create ETL pipelines for data received by members.",
+        "Support the development of in-house automation and data dissemination web tools."
+      ],
+      achievements: [
+        "Implemented a system to transpose HS national codes using embeddings.",
+        "Developed a deep learning model to predict imports of goods and port congestion.",
+        "Created a Python library to process import data."
       ]
     },
     {
       schoolName: "PwC - Malta",
       logo: require("./assets/images/pwcLogo.png"),
       subHeader: "Data Scientist",
-      duration: "January 2021 - September 2021",
-      desc: "Python · SQL · Git · VBA · Alteryx · Power BI",
-      descBullets: [
-        "Development of automation tools with Python and VBA.",
-        "Implementation of ETL processes using Alteryx.",
-        "Identification and prototyping of ML applications across the firm."
-    ]
+      duration: "January 2020 - September 2021",
+      desc: "Python · SQL · Git Hub · AWS · MLflow · Docker · Alteryx",
+      responsabilities: [
+        "Implementation of Data Science modeling of real estate and financial data.",
+        "Perform NLP projects for legal documents and social media.",
+        "Development of automation and scraping tools.",
+        "Mentor newcomers and interns in ML practices and new technologies."
+      ],
+      achievements: [
+        "Responsible for the end-to-end project of Malta's real estate ML project.",
+        "Created an app that provided NLP insights into companies mandatory docs.",
+        "Led the development of a VAT automation tool using VBA and Alteryx."
+      ]
     },
     {
       schoolName: "Transcom",
       logo: require("./assets/images/transcomLogo.png"),
       subHeader: "Data analyst",
-      duration: "November 2018 - December 2020",
-      desc: ["Python · SQL · Git · Tableau · Excel"],
-      descBullets: [
-        "Preparation of KPIs' dashboards.",
-        "Development of machine learning models and advanced analytical techniques.",
-        "Creation and management of database solutions."
+      duration: "November 2018 - December 2019",
+      desc: "Python · SQL · Git Hub · Tableau · Excel",
+      responsabilities: [
+        "Prepare KPI dashboards on product and agent performance.",
+        "Perform root cause analysis regarding customer behavior.",
+        "Collect, clean, and ingest data into databases for analysis, reports, and modeling.",
+        "Develop Data Science models to increase efficiency and obtain insights."
+      ],
+      achievements: [
+        "Introduced automation of several ETL processes.",
+        "Responsible for the first ML models implemented that reduced time to objectives.",
+        "Provided guidance on Machine Learning and new technologies to colleagues."
       ]
     }
   ]
