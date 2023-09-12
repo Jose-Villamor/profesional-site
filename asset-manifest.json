@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profesional-site/static/css/main.3c6d2cd2.css",
-    "main.js": "/profesional-site/static/js/main.8631e4cc.js",
+    "main.js": "/profesional-site/static/js/main.729e5eaf.js",
     "static/media/dvc-cert.webp": "/profesional-site/static/media/dvc-cert.6d40ef77623c530364d1.webp",
     "static/media/profile.png": "/profesional-site/static/media/profile.39408ed197103ded5440.png",
     "static/media/Montserrat-Regular.ttf": "/profesional-site/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -11,10 +11,10 @@
     "static/media/skill.svg": "/profesional-site/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/profesional-site/index.html",
     "main.3c6d2cd2.css.map": "/profesional-site/static/css/main.3c6d2cd2.css.map",
-    "main.8631e4cc.js.map": "/profesional-site/static/js/main.8631e4cc.js.map"
+    "main.729e5eaf.js.map": "/profesional-site/static/js/main.729e5eaf.js.map"
   },
   "entrypoints": [
     "static/css/main.3c6d2cd2.css",
-    "static/js/main.8631e4cc.js"
+    "static/js/main.729e5eaf.js"
   ]
 }
